@@ -1,0 +1,22 @@
+
+@media  screen and (max-width:425px) {
+
+    /* nav resposive for mobile start */
+    .nav-container {
+          border: 1px solid salmon;
+         display: flex;
+        align-items: center;
+        flex-direction: column;
+ }
+    .logo-container {
+        display: flex;       
+    }
+
+    .nav-item-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3.8rem;
+      
+    }
+    /* nav resposive for mobile end */   
+}
