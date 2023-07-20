@@ -12,6 +12,7 @@
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
+    text-align: left;
 
 }
 
@@ -42,6 +43,7 @@ body {
     padding: 2.3rem 9.3rem;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
 }
 
 .logo-container {
@@ -61,6 +63,7 @@ body {
 }
 
 #nav-logo-text {
+   
     font-size: 35px;
     font-weight: 700;
 }
@@ -130,15 +133,12 @@ body {
     /* text-align: center; */
     /* align-items: center; */
 
-
-
-
 }
 
 .banner-content {
     border: 1px solid fuchsia;
     width: 50%;
-    /* align-items: center; */
+    /* text-align: left; */
     margin: 5.25rem 10rem 5.25rem 8rem;
 }
 
@@ -147,6 +147,13 @@ body {
     border: 1px solid darkmagenta;
     font-size: 3rem;
     font-weight: 600;
+}
+.banner-content ul li{
+    list-style: none;
+    
+}
+.fa-solid{
+    margin-right: 20px;
 }
 
 .text-design {
@@ -218,10 +225,11 @@ body {
 .card-section h3 {
     font-size: 3rem;
     font-weight: 700;
+    margin: 0
 }
 
 #title-description {
-    margin-bottom: 3rem;
+    margin-bottom:3rem ;
 }
 
 .online-game-img {
@@ -246,7 +254,49 @@ body {
 
 
 
+/* Anniversary section starts here */
 
+.anniversary-sction{
+    border: 1px solid purple;
+    min-height: 500px;
+    max-width: 80%;
+    margin: 120px 230px 0 270px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.anniversary-content{
+    width: 50%;
+   text-align: right;
+   padding-right: 70px;
+
+}
+.anniversary-content h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.anniversary-content p{
+    
+}
+.anniversary-img{
+    width: 50%;
+    position: relative;
+    
+    
+}
+.badge-img{
+   position: absolute;
+   top: 280px;
+   left: -50px;
+   width: 150px;
+}
+
+.main-img{
+    width: 100%;
+    
+    
+}
 
 
 
@@ -330,19 +380,20 @@ body {
 /* footer section starts here */
 .footer-section {
     border: solid 1px #F948B2;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     text-align: center;
     background: #0B0223;
+    padding: 35px 20px 35px 40px;
 
 }
+
 
 .footer-logo-text {
     color: #FFF;
+}   
 
-    font-size: 45px;
-
-    font-weight: 700;
-}
 
 .footer-logo-conainer {
     border: solid 1px blue;
@@ -409,3 +460,11 @@ body {
 }
 
 /* nav section styles end */
+
+
+
+
+
+.hide{
+    display: hide;
+}
